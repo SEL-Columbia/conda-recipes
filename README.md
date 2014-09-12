@@ -9,5 +9,5 @@ To install a package
 $ conda build recipe
 ```
 ```bash
-conda install --use-local recipe
+conda install --use-local pathto/built-recipe.tar.bz2
 ```
