@@ -1,1 +1,1 @@
- python setup.py install || exit 1
+ python setup.py install --single-version-externally-managed --record=record.txt || exit 1
