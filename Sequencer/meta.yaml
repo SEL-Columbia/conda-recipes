@@ -1,5 +1,6 @@
 package:
   name: sequencer
+  version:  0.0.1
 
 source:
   #git_tag: v0.0.1
@@ -10,6 +11,21 @@ requirements:
   build:
     - python
     - setuptools
+    - dateutil
+    - decorator
+    - fiona
+    - freetype
+    - gdal
+    - libpng
+    - matplotlib
+    - networkx
+    - numexpr
+    - numpy
+    - pandas
+    - pyparsing
+    - pytz
+    - scikit-learn
+    - scipy
 
   run:
     - python
@@ -29,10 +45,10 @@ requirements:
     - scikit-learn
     - scipy
 
-#test:
+test:
   # Python imports
-  #  imports:
-          # - sequencer
+  imports:
+    - sequencer
 
   #commands:
     # You can put test commands to be run here.  Use this to test that the
