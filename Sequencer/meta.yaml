@@ -1,6 +1,6 @@
 package:
   name: sequencer
-  version:  0.0.1
+  version:  0.0.2
 
 source:
   #git_tag: v0.0.1
@@ -20,7 +20,7 @@ requirements:
     - matplotlib
     - networkx
     - numexpr
-    - numpy
+    - numpy >=1.9
     - pandas
     - pyparsing
     - pytz
@@ -38,7 +38,7 @@ requirements:
     - matplotlib
     - networkx
     - numexpr
-    - numpy
+    - numpy >=1.9
     - pandas
     - pyparsing
     - pytz
