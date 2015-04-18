@@ -1,0 +1,66 @@
+package:
+  name: networker
+  version:  0.0.1
+
+source:
+  # NOTE:  Built from local path because I needed to temporarily remove 
+  #        dateutil from requirements.txt in networker repo.
+  #        Hopefully this problem will be resolved going forward.
+  # git_url: https://github.com/SEL-Columbia/networker.git
+  path: /home/cjn/src/networker
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - gdal
+    - numpy
+    - scipy
+    - networkx
+    - decorator
+    - cython
+    - nose
+    - numba
+    - llvmlite
+    - funcsigs
+    - pandas
+    - enum34
+    - dateutil
+    - pytz
+    - rtree
+    - jsonschema
+    - pyproj
+    - six
+
+  run:
+    - python
+    - setuptools
+    - gdal
+    - numpy
+    - scipy
+    - networkx
+    - decorator
+    - cython
+    - nose
+    - numba
+    - llvmlite
+    - funcsigs
+    - pandas
+    - enum34
+    - dateutil
+    - pytz
+    - rtree
+    - jsonschema
+    - pyproj
+    - six
+
+test:
+  imports:
+    - networker
+
+about:
+  home: https://github.com/SEL-Columbia/networker
+  
+  license: WTFPL
+  summary: "Python library for computing least cost spatial networks"
+

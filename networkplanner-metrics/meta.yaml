@@ -1,0 +1,42 @@
+package:
+  name: networkplanner-metrics 
+  version:  0.9.7
+
+source:
+  git_url: https://github.com/SEL-Columbia/networkplanner.git
+
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - gdal
+    - numpy >=1.9
+    - scipy
+    - sqlalchemy ==0.7.8
+    - shapely
+    - decorator
+    - geojson
+
+  run:
+    - python
+    - setuptools
+    - gdal
+    - numpy >=1.9
+    - scipy
+    - sqlalchemy ==0.7.8
+    - shapely
+    - decorator
+    - geojson
+
+test:
+  # Python imports
+  imports:
+    - np 
+
+about:
+  home: https://github.com/SEL-Columbia/networkplanner
+  
+  license:  MIT
+  summary: "Metrics calculation components of Python library for network planning"
+
