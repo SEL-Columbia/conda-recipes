@@ -1,6 +1,6 @@
 package:
   name: networker
-  version:  0.0.3
+  version:  0.0.5
 
 source:
   # NOTE:  Built from local path because I needed to temporarily remove 
@@ -8,6 +8,9 @@ source:
   #        Hopefully this problem will be resolved going forward.
   # git_url: https://github.com/SEL-Columbia/networker.git
   path: /home/cjn/src/networker
+
+build:
+  preserve_egg_dir: yes
 
 requirements:
   build:
