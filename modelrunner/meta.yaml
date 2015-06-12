@@ -1,6 +1,6 @@
 package:
   name: modelrunner 
-  version:  0.2.0
+  version:  0.3.0
 
 source:
   # NOTE:  Build from local path until this is stable 
