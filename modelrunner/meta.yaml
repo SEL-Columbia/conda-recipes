@@ -1,6 +1,6 @@
 package:
   name: modelrunner 
-  version:  0.4.1
+  version:  0.4.2
 
 source:
   # NOTE:  Build from local path until this is stable 
@@ -18,7 +18,6 @@ requirements:
     - redis-py
     - tornado
     - futures
-    - sqlite
 
   run:
     - python
@@ -27,7 +26,6 @@ requirements:
     - redis-py
     - tornado
     - futures
-    - sqlite
 
 test:
   imports:
