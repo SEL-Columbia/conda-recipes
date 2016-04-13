@@ -14,6 +14,7 @@ build:
 
 requirements:
   build:
+    - krb5
     - python
     - setuptools
     - gdal
@@ -26,7 +27,7 @@ requirements:
     - numba 0.20.0
     - llvmlite 0.6.0
     - funcsigs 0.4
-    - pandas 0.17.1
+    - pandas 0.16.2
     - enum34 1.1.2
     - dateutil 
     - pytz 2016.3
@@ -36,6 +37,7 @@ requirements:
     - six 1.10.0
 
   run:
+    - krb5
     - python
     - setuptools
     - gdal
@@ -48,7 +50,7 @@ requirements:
     - numba 0.20.0
     - llvmlite 0.6.0
     - funcsigs 0.4
-    - pandas 0.17.1
+    - pandas 0.16.2
     - enum34 1.1.2
     - dateutil 
     - pytz 2016.3
