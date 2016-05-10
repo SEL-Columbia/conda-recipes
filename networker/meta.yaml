@@ -1,6 +1,6 @@
 package:
   name: networker
-  version:  0.2.6
+  version:  0.2.7
 
 source:
   # NOTE:  Built from local path because I needed to temporarily remove 
