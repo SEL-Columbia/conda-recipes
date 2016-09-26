@@ -1,11 +1,11 @@
 package:
   name: sequencer
-  version:  0.1.0
+  version:  0.2.0
 
 source:
   #git_tag: v0.0.1
   # git_url: https://github.com/SEL-Columbia/Sequencer.git
-  path: /home/cjn/src/Sequencer
+  path: /root/Projects/sequencer
 
 
 requirements:
