@@ -1,0 +1,51 @@
+package:
+  name: geometryio
+  version: "0.9.7.2"
+
+source:
+  fn: geometryIO-0.9.7.2.tar.gz
+  url: https://pypi.python.org/packages/2e/e6/628c692b174433f1a868dceda2efc9d33f4c6332dd41795e1fc5c5477905/geometryIO-0.9.7.2.tar.gz
+  md5: 25d4539fbd1601d6da047e7a439bfdff
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  # noarch_python: True
+  preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - geometryio = geometryio:main
+    #
+    # Would create an entry point called geometryio that calls geometryio.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - archiveio
+    - gdal 2.1.1
+    - shapely
+
+  run:
+    - python
+    - archiveio
+    - gdal 2.1.1
+    - shapely
+
+about:
+  home: https://github.com/invisibleroads/geometryIO
+  license: MIT License
+  summary: 'GDAL wrapper for reading and writing geospatial data to a variety of vector formats'
+  license_family: MIT
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

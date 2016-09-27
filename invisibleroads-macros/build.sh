@@ -9,9 +9,9 @@ FOLDER = dirname(abspath(__file__))
 DESCRIPTION = '\n\n'.join(open(join(FOLDER, x)).read().strip() for x in [
     'README.rst', 'CHANGES.rst'])
 setup(
-    name='infrastructure-planning',
-    version='2.0.9',
-    description='Infrastructure planning tools',
+    name='invisibleroads-macros',
+    version='0.7.1',
+    description='Shortcut functions',
     long_description=DESCRIPTION,
     classifiers=[
         'Programming Language :: Python',
@@ -19,8 +19,8 @@ setup(
     ],
     author='Roy Hyunjin Han',
     author_email='rhh@crosscompute.com',
-    url='https://crosscompute.com/docs',
-    keywords='crosscompute',
+    url='http://invisibleroads.com',
+    keywords='invisibleroads',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False
