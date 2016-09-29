@@ -18,3 +18,12 @@ To upload to anaconda cloud for others
 ```bash
 anaconda upload $HOME/anaconda/conda-bld/ARCH/recipe.tar.bz2
 ```
+
+## Installs
+
+- infrastructure-planning
+```bash
+conda install -c sel -c conda-forge infrastructure-planning
+```
+
+

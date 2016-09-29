@@ -31,13 +31,13 @@ requirements:
     - python
     - setuptools
     - archiveio
-    - gdal 2.1.1
+    - gdal 2.1.0
     - shapely
 
   run:
     - python
     - archiveio
-    - gdal 2.1.1
+    - gdal 2.1.0
     - shapely
 
 about:
