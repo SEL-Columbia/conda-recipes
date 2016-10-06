@@ -1,9 +1,9 @@
 package:
   name: sequencer
-  version:  0.2.0
+  version:  0.3.1
 
 source:
-  git_tag: v0.2.0
+  git_tag: v0.3.1
   git_url: https://github.com/SEL-Columbia/sequencer.git
   # path: /root/Projects/sequencer
 
@@ -14,36 +14,34 @@ requirements:
     - setuptools
     - dateutil
     - decorator
-    - fiona 1.1.6
+    - fiona
     - freetype
-    - gdal 1.11.0
+    - gdal
     - libpng
     - matplotlib
     - networkx
     - numexpr
-    - numpy >=1.9
+    - numpy
     - pandas
     - pyparsing
     - pytz
-    - scikit-learn
     - scipy
 
   run:
     - python
     - dateutil
     - decorator
-    - fiona 1.1.6
+    - fiona
     - freetype
-    - gdal 1.11.0
+    - gdal
     - libpng
     - matplotlib
     - networkx
     - numexpr
-    - numpy >=1.9
+    - numpy
     - pandas
     - pyparsing
     - pytz
-    - scikit-learn
     - scipy
 
 test:
@@ -69,6 +67,3 @@ about:
   license:  MIT
   summary: "Python library for sequencing the output of Network Planner csv's and shape file outputs"
 
-# See
-# http://docs.continuum.io/conda/build.html for
-# more information about meta.yaml

@@ -1,11 +1,11 @@
 package:
   name: modelrunner 
-  version:  0.6.0
+  version:  0.6.1
 
 source:
-  # NOTE:  Build from local path until this is stable 
-  # git_url: https://github.com/SEL-Columbia/modelrunner.git
-  path: /home/cjn/src/modelrunner
+  git_tag: v0.6.1
+  git_url: https://github.com/SEL-Columbia/modelrunner.git
+  # path: /home/cjn/src/modelrunner
 
 build:
   preserve_egg_dir: yes

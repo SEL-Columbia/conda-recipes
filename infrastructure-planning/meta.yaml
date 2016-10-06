@@ -3,45 +3,54 @@ package:
   version:  2.1.0
 
 source:
-  git_tag: 2.1.0
-  git_url: https://github.com/SEL-Columbia/infrastructure-planning.git
-  # path: /root/Projects/infrastructure-planning
+  # git_tag: 2.1.0
+  # git_url: https://github.com/SEL-Columbia/infrastructure-planning.git
+  path: /home/cjn/src/infrastructure-planning
 
 build:
   preserve_egg_dir: yes
 
+test:
+  requires:
+    - pytest
+
 requirements:
   build:
+    - pytest-runner
     - python
-    - numpy 1.11.1
-    - pandas 0.18.1
-    - networkx 1.11
-    - scipy 0.17.0
-    - gdal 2.1.0
-    - rtree 0.8.2
+    - pathlib
+    - python-dateutil
+    - six
+    - numpy
+    - pandas
+    - networkx
+    - scipy
+    - gdal
+    - rtree
     - scikit-learn
     - sequencer
     - networker
     - shapely
     - geopy
-    - invisibleroads-macros
     - simplejson
     - geometryio
 
   run:
     - python
-    - numpy 1.11.1
-    - pandas 0.18.1
-    - networkx 1.11
-    - scipy 0.17.0
-    - gdal 2.1.0
-    - rtree 0.8.2
+    - pathlib
+    - python-dateutil
+    - six
+    - numpy
+    - pandas
+    - networkx
+    - scipy
+    - gdal
+    - rtree
     - scikit-learn
     - sequencer
     - networker
     - shapely
     - geopy
-    - invisibleroads-macros
     - simplejson
     - geometryio
 

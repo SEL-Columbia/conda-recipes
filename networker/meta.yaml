@@ -1,51 +1,54 @@
 package:
   name: networker
-  version:  0.4.0
+  version:  0.4.2
 
 source:
   # NOTE:  Built from local path because I needed to temporarily remove 
   #        dateutil from requirements.txt in networker repo.
   #        Hopefully this problem will be resolved going forward.
-  # git_url: https://github.com/SEL-Columbia/networker.git
-  path: /home/cjn/src/networker
+  git_tag: v0.4.2
+  git_url: https://github.com/SEL-Columbia/networker.git
+  # path: /home/cjn/src/networker
 
 build:
   preserve_egg_dir: yes
 
 requirements:
   build:
-    - gdal 2.1.0
-    - numpy 1.11.1
-    - scipy 0.17.0
-    - networkx 1.11
-    - decorator 4.0.9
-    - cython 0.24
-    - nose 1.3.7
-    - funcsigs 0.4
-    - pandas 0.18.1
-    - enum34 1.1.2
-    - pytz 2016.3
-    - rtree 0.8.2
-    - jsonschema 2.4.0
-    - pyproj 1.9.5.1
-    - six 1.10.0
+    - python
+    - gdal
+    - numpy
+    - scipy
+    - networkx
+    - decorator
+    - cython
+    - nose
+    - funcsigs
+    - pandas
+    - enum34
+    - pytz
+    - rtree
+    - jsonschema
+    - pyproj
+    - six
 
   run:
-    - gdal 2.1.0
-    - numpy 1.11.1
-    - scipy 0.17.0
-    - networkx 1.11
-    - decorator 4.0.9
-    - cython 0.24
-    - nose 1.3.7
-    - funcsigs 0.4
-    - pandas 0.18.1
-    - enum34 1.1.2
-    - pytz 2016.3
-    - rtree 0.8.2
-    - jsonschema 2.4.0
-    - pyproj 1.9.5.1
-    - six 1.10.0
+    - python
+    - gdal
+    - numpy
+    - scipy
+    - networkx
+    - decorator
+    - cython
+    - nose
+    - funcsigs
+    - pandas
+    - enum34
+    - pytz
+    - rtree
+    - jsonschema
+    - pyproj
+    - six
 
 test:
   imports:
