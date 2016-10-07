@@ -25,8 +25,8 @@ requirements:
     - pandas
     - networkx
     - scipy
-    - libgdal
     - gdal
+    - libgdal >=2.1.0
     - rtree
     - scikit-learn
     - sequencer
@@ -45,8 +45,8 @@ requirements:
     - pandas
     - networkx
     - scipy
-    - libgdal
     - gdal
+    - libgdal >=2.1.0
     - rtree
     - scikit-learn
     - sequencer

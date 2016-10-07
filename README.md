@@ -19,11 +19,30 @@ To upload to anaconda cloud for others
 anaconda upload $HOME/anaconda/conda-bld/ARCH/recipe.tar.bz2
 ```
 
-## Installs
+## Builds
 
-- infrastructure-planning
+### modelrunner
+
+Build for Python 3
+
 ```bash
-conda install -c sel -c conda-forge infrastructure-planning
+conda build --python 3.5 modelrunner
+```
+
+### networker
+
+Requires conda-forge channel for rtree >= v0.8
+
+```bash
+conda build -c conda-forge networker 
+```
+
+### infrastructure-planning
+
+Requires sel channel for networker, sequencer
+
+```bash
+conda build -c conda-forge -c sel infrastructure-planning
 ```
 
 

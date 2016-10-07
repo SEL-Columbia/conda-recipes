@@ -17,6 +17,7 @@ requirements:
   build:
     - python
     - gdal
+    - libgdal >=2.1.0
     - numpy
     - scipy
     - networkx
@@ -35,6 +36,7 @@ requirements:
   run:
     - python
     - gdal
+    - libgdal >=2.1.0
     - numpy
     - scipy
     - networkx
