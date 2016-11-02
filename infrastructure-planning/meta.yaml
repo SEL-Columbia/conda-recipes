@@ -1,9 +1,9 @@
 package:
   name: infrastructure-planning 
-  version:  2.1.0
+  version:  3.0.0
 
 source:
-  # git_tag: 2.1.0
+  git_tag: 3.0.0
   git_url: https://github.com/SEL-Columbia/infrastructure-planning.git
   # path: /home/cjn/src/infrastructure-planning
 
@@ -26,7 +26,8 @@ requirements:
     - networkx
     - scipy
     - gdal
-    - libgdal >=2.1.0
+    - jpeg ==8d
+    - libgdal
     - rtree
     - scikit-learn
     - sequencer
@@ -46,7 +47,8 @@ requirements:
     - networkx
     - scipy
     - gdal
-    - libgdal >=2.1.0
+    - jpeg ==8d
+    - libgdal
     - rtree
     - scikit-learn
     - sequencer
