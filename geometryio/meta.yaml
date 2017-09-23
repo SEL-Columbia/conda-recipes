@@ -1,11 +1,11 @@
 package:
   name: geometryio
-  version: "0.9.7.2"
+  version: "0.9.7.6"
 
 source:
-  fn: geometryIO-0.9.7.2.tar.gz
-  url: https://pypi.python.org/packages/2e/e6/628c692b174433f1a868dceda2efc9d33f4c6332dd41795e1fc5c5477905/geometryIO-0.9.7.2.tar.gz
-  md5: 25d4539fbd1601d6da047e7a439bfdff
+  fn: geometryIO-0.9.7.6.tar.gz
+  url: https://pypi.python.org/packages/5c/5a/7c641b4298d99005a649e8c86b47947ad86ff2bdb3669b99ce2f99b77c14/geometryIO-0.9.7.6.tar.gz
+  md5: f7ddd8bfe2d10f4fc9273ec7533cf559
 #  patches:
    # List any patch files here
    # - fix.patch
@@ -31,13 +31,13 @@ requirements:
     - python
     - setuptools
     - archiveio
-    - gdal 2.1.0
+    - gdal
     - shapely
 
   run:
     - python
     - archiveio
-    - gdal 2.1.0
+    - gdal
     - shapely
 
 about:

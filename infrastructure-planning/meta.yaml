@@ -1,11 +1,11 @@
 package:
   name: infrastructure-planning 
-  version:  3.0.0
+  version:  3.0.1.2
 
 source:
-  git_tag: 3.0.0
-  git_url: https://github.com/SEL-Columbia/infrastructure-planning.git
-  # path: /home/cjn/src/infrastructure-planning
+  # git_tag: 3.0.1
+  # git_url: https://github.com/SEL-Columbia/infrastructure-planning.git
+  path: /home/cjn/src/infrastructure-planning
 
 build:
   preserve_egg_dir: yes
@@ -16,6 +16,10 @@ test:
 
 requirements:
   build:
+    # for invisibleroads-macros
+    - attrs
+    - configparser
+    # for infrastructure-planning
     - pytest-runner
     - python
     - pathlib
@@ -23,11 +27,9 @@ requirements:
     - six
     - numpy
     - pandas
-    - networkx
+    - networkx ==1.11
     - scipy
     - gdal
-    - jpeg ==8d
-    - libgdal
     - rtree
     - scikit-learn
     - sequencer
@@ -38,17 +40,19 @@ requirements:
     - geometryio
 
   run:
+    # for invisibleroads-macros
+    - attrs
+    - configparser
+    # for infrastructure-planning
     - python
     - pathlib
     - python-dateutil
     - six
     - numpy
     - pandas
-    - networkx
+    - networkx ==1.11
     - scipy
     - gdal
-    - jpeg ==8d
-    - libgdal
     - rtree
     - scikit-learn
     - sequencer

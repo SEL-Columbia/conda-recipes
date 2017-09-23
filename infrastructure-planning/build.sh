@@ -2,6 +2,7 @@
 
 # Bundle invisibleroads-macros straight from gh/master
 # NOTE:  This will install some dependencies via pip
+rm -rf invisibleroads-macros
 git clone https://github.com/invisibleroads/invisibleroads-macros
 pushd invisibleroads-macros
 ${PYTHON} setup.py install --prefix "${PREFIX}"
